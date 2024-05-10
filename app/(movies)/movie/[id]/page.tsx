@@ -1,3 +1,3 @@
-export default function Movie() {
-  return <h1>Movie</h1>;
+export default function Movie({ params: { id } }: { params: { id: string } }) {
+  return <h1>Movie {id}</h1>;
 }
